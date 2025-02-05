@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantevanning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="plant-card">
+            <!-- <div class="plant-decoration">
+                <img src="monsteria.PNG" alt="Monstera" class="plant-img">
+            </div> -->
+            
+            <h1 class="main-title">Plantevanning</h1>
+            <h2 class="subtitle">ikke la dem dø Thor..</h2>
+            
+            <div class="time-info">
+                <p id="lastWatered">Du har ikke vannet plantene ennå</p>
+                <p id="timeSince"></p>
+                <div id="statusIcon" class="status-icon"></div>
+            </div>
+
+            <button id="waterButton" class="water-button">
+                💧 Registrer vanning
+            </button>
+
+            <!-- Ny logg-seksjon -->
+            <div class="watering-log">
+                <h3>Vanningshistorikk</h3>
+                <ul id="wateringHistory"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

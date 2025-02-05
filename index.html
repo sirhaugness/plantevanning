@@ -4,7 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantevanning</title>
+    
+    <!-- iPhone hjemskjerm innstillinger -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Plantevanning">
+    
+    <!-- iPhone ikoner med relative stier -->
+    <link rel="apple-touch-icon" href="./monsteria.PNG">
+    <link rel="apple-touch-icon" sizes="152x152" href="./monsteria.PNG">
+    <link rel="apple-touch-icon" sizes="180x180" href="./monsteria.PNG">
+    <link rel="apple-touch-icon" sizes="167x167" href="./monsteria.PNG">
+    
+    <!-- Eksisterende lenker -->
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Sett base URL basert på miljø
+        window.baseUrl = location.hostname === 'sirhaugness.github.io' 
+            ? '/plantevanning' 
+            : '';
+    </script>
 </head>
 <body>
     <div class="container">

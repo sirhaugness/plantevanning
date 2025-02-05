@@ -22,7 +22,7 @@
     align-items: center;
     min-height: 100vh;
     background-color: #f0f8f0;
-    background-image: url('https://thorhaugness.github.io/plantevanning/monsteria.PNG');
+    background-image: url('./monsteria.PNG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
